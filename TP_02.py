@@ -6,7 +6,7 @@ from tensorflow.keras.datasets import mnist
  
 
 
-img = cv2.imread('images/car01.jpg', cv2.IMREAD_GRAYSCALE)
+img = cv2.imread('car01.jpg', cv2.IMREAD_GRAYSCALE)
 print("Image shape:", img.shape)
 plt.imshow(img, cmap='gray')
 plt.title("Grayscale Image")
