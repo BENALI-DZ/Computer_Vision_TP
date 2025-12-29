@@ -63,12 +63,7 @@ for result in results:
 output_path = "output_circles.jpg"
 cv2.imwrite(output_path, image)
 print(f"\nSaved output image with circles to {output_path}")
-
-# If you want it to pop up in a window immediately:
-cv2.imshow("YOLOv8 Circle Detections", image)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
-
+ 
 
 
 ![output_circles](https://github.com/user-attachments/assets/3b763188-c70a-4287-b34e-b998df218347)
